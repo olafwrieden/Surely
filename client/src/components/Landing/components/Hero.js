@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="container">
             <div className="navbar-brand">
               <Link to="/" className="navbar-item">
-                <h3 className="logo is-size-4">P2P Insurance</h3>
+                <h3 className="logo is-size-4">Surely</h3>
               </Link>
             </div>
 

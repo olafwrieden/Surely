@@ -1,13 +1,13 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
+  "description": "API for the frontend.",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Olaf Wrieden",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

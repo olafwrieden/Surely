@@ -36,7 +36,7 @@ app.use("/api/v1", router);
 if (NODE_ENV === "production") {
   // Serve Static Files
   app.use(express.static(path.join(__dirname, "../client/build")));
-  console.log(path.join(__dirname, "../client/build", "index.html"));
+  
   // Route all requests to client router
   app.get("*", function (_, res) {
     res.sendFile(path.join(__dirname, "../client/build", "index.html"));

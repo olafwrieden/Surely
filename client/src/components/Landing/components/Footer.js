@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div className="column is-4 has-text-centered is-hidden-mobile">
             <Link className="title is-4" to="/">
-              P2P Insurance
+              Surely
             </Link>
           </div>
           <div className="column is-4 has-text-right">
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
         <p className="subtitle has-text-centered is-6">
-          © 2020 P2P Insurance. All right reserved.
+          © 2020 Surely. All right reserved.
         </p>
       </div>
     </footer>
