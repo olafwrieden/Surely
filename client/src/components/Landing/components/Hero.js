@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../style.css";
 
 const Hero = () => {
@@ -42,14 +43,12 @@ const Hero = () => {
             This is how to use it and why you need it. Why are these sentences
             so long?
           </p>
-          <a
+          <Link
             className="button cta is-primary is-size-7 a-menu mt-5"
-            target="_blank"
-            rel="noreferrer noopener"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSclMIuM_4jeNCq9TRFBe0OzxTDKjqwu_46JNArWqAQb8NBvww/viewform?usp=sf_link"
+            to="/register"
           >
-            Take our Survey
-          </a>
+            Sign Up
+          </Link>
         </div>
       </div>
     </section>

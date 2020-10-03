@@ -1,0 +1,14 @@
+{
+  "name": "p2p",
+  "version": "1.0.0",
+  "description": "Insurance like never before.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd api && node server.js",
+    "dev:api": "cd api && npm run dev",
+    "dev:app": "cd client && npm start",
+    "heroku-postbuild": "cd api && npm i --only=prod && cd ../client && npm i && npm i --only=dev --no-shrinkwrap && npm run build"
+  },
+  "author": "Olaf Wrieden",
+  "license": "MIT"
+}
