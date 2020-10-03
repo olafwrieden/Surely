@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: false }));
 // API Routes (in production, it falls back to React Router)
 const router = express.Router();
 // router.use("/auth", require("./app/routes/Auth"));
-// router.use("/users", require("./app/routes/Users"));
+router.use("/users", require("./app/routes/Users"));
 // router.use("/admin", require("./app/routes/Admin"));
 // router.use("/evidence", require("./app/routes/Evidence"));
 
@@ -36,7 +36,7 @@ app.use("/api/v1", router);
 if (NODE_ENV === "production") {
   // Serve Static Files
   app.use(express.static(path.join(__dirname, "../client/build")));
-
+  console.log(path.join(__dirname, "../client/build", "index.html"));
   // Route all requests to client router
   app.get("*", function (_, res) {
     res.sendFile(path.join(__dirname, "../client/build", "index.html"));

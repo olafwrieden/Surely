@@ -11,17 +11,25 @@ const Hero = () => {
         <nav className="navbar">
           <div className="container">
             <div className="navbar-brand">
-              <a className="navbar-item">
+              <Link to="/" className="navbar-item">
                 <h3 className="logo is-size-4">P2P Insurance</h3>
-              </a>
+              </Link>
             </div>
 
             <div className={`navbar-menu ${isActive ? "is-active" : ""}`}>
               <div className="navbar-end">
-                <a className="a-menu is-size-7 navbar-item">Home</a>
-                <a className="a-menu is-size-7 navbar-item">About</a>
-                <a className="a-menu is-size-7 navbar-item">Features</a>
-                <a className="a-menu is-size-7 navbar-item">Contact</a>
+                <Link to="/" className="a-menu is-size-7 navbar-item">
+                  Home
+                </Link>
+                <Link to="/" className="a-menu is-size-7 navbar-item">
+                  About
+                </Link>
+                <Link to="/" className="a-menu is-size-7 navbar-item">
+                  Features
+                </Link>
+                <Link to="/" className="a-menu is-size-7 navbar-item">
+                  Contact
+                </Link>
               </div>
             </div>
             <span

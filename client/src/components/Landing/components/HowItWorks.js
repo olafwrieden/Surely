@@ -15,14 +15,14 @@ const HowItWorks = () => {
             </p>
           </div>
           <div className="column">
-            <img className="feature-img" src="img/feature1.png" alt="feature" />
+            {/* <img className="feature-img" src="img/feature1.png" alt="feature" /> */}
           </div>
         </div>
       </div>
       <div className="container">
         <div className="columns">
           <div className="column">
-            <img className="feature-img" src="img/feature2.png" alt="feature" />
+            {/* <img className="feature-img" src="img/feature2.png" alt="feature" /> */}
           </div>
           <div className="column">
             <h3 className="is-size-3">Feature 2</h3>
@@ -47,7 +47,7 @@ const HowItWorks = () => {
             </p>
           </div>
           <div className="column">
-            <img className="feature-img" src="img/feature3.png" alt="feature" />
+            {/* <img className="feature-img" src="img/feature3.png" alt="feature" /> */}
           </div>
         </div>
       </div>

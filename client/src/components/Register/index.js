@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   return (
@@ -56,8 +57,14 @@ const Register = () => {
               </div>
               <p>
                 By signing in you agree with the{" "}
-                <a href="#">Terms and Conditions</a> and{" "}
-                <a href="#">Privacy Policy</a>.
+                <Link to="/" href="#">
+                  Terms and Conditions
+                </Link>{" "}
+                and{" "}
+                <Link to="/" href="#">
+                  Privacy Policy
+                </Link>
+                .
               </p>
             </form>
           </div>

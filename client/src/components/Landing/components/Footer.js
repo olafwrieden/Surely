@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,9 +7,9 @@ const Footer = () => {
       <div className="container">
         <div className="columns">
           <div className="column is-4 has-text-centered is-hidden-tablet">
-            <a className="title is-4" href="#">
+            <Link to="/" className="title is-4" href="#">
               P2P Insurance
-            </a>
+            </Link>
           </div>
           <div className="column is-4">
             <div className="level">
@@ -31,16 +32,16 @@ const Footer = () => {
             </div>
           </div>
           <div className="column is-4 has-text-centered is-hidden-mobile">
-            <a className="title is-4" href="#">
+            <Link className="title is-4" to="/">
               P2P Insurance
-            </a>
+            </Link>
           </div>
           <div className="column is-4 has-text-right">
             <div className="level">
-              <a className="level-item" href="#">
+              <a className="level-item" href="a">
                 Support
               </a>
-              <a className="level-item" href="#">
+              <a className="level-item" href="/">
                 ICO
               </a>
             </div>
