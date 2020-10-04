@@ -11,7 +11,7 @@ const Landing = () => (
     <Hero />
     <MyDetails />
     <HowItWorks />
-    <Pricing />
+    {/* <Pricing />
     <hr
       className="is-divider"
       style={{
@@ -19,7 +19,7 @@ const Landing = () => (
         width: "50%",
         margin: "0 auto",
       }}
-    ></hr>
+    ></hr> */}
     <Team />
     <Footer />
   </>

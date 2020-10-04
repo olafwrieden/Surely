@@ -95,8 +95,8 @@ Links
 .a-menu {
   letter-spacing: 3px;
   text-transform: uppercase;
-  transition: opacity 1s ease;
-  opacity: 0.8;
+  /* transition: opacity 1s ease;
+  opacity: 0.8; */
 }
 
 .a-menu:hover {
