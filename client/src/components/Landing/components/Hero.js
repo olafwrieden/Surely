@@ -47,9 +47,8 @@ const Hero = () => {
         <div className="container">
           <h1 className="is-size-1 is-size-3-mobile">Revamped insurance</h1>
           <p className="has-text-dark">
-            P2P Insurance is a super awesome tool for you and all of your needs.
-            This is how to use it and why you need it. Why are these sentences
-            so long?
+            Surely is a super awesome peer-to-peer insurance platform crediting
+            you for positive driving habits. Surely its worth a try.
           </p>
           <Link
             className="button cta is-primary is-size-7 a-menu mt-5"

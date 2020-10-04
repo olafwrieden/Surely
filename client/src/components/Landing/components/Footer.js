@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="columns">
           <div className="column is-4 has-text-centered is-hidden-tablet">
             <Link to="/" className="title is-4" href="#">
-              P2P Insurance
+              Surely
             </Link>
           </div>
           <div className="column is-4">
@@ -38,11 +38,21 @@ const Footer = () => {
           </div>
           <div className="column is-4 has-text-right">
             <div className="level">
-              <a className="level-item" href="a">
-                Support
+              <a
+                className="level-item"
+                href="https://annahan.lol"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Anna Han
               </a>
-              <a className="level-item" href="/">
-                ICO
+              <a
+                className="level-item"
+                href="https://gridakl.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                GridAKL
               </a>
             </div>
           </div>

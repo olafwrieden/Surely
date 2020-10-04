@@ -12,6 +12,14 @@ const Landing = () => (
     <MyDetails />
     <HowItWorks />
     <Pricing />
+    <hr
+      className="is-divider"
+      style={{
+        backgroundColor: "#e5e5e5",
+        width: "50%",
+        margin: "0 auto",
+      }}
+    ></hr>
     <Team />
     <Footer />
   </>
