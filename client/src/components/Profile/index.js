@@ -1,8 +1,6 @@
 import React from "react";
 
 const Profile = () => {
-  const { PUBLIC_URL } = process.env;
-
   return (
     <>
       <section className="section">
@@ -23,7 +21,7 @@ const Profile = () => {
                   <figure className="image is-128x128 is-inline-block img-edit">
                     <img
                       className="is-rounded avatar"
-                      src={`${PUBLIC_URL}/images/selena-profile.jpeg`}
+                      src="/images/selena-profile.jpeg"
                       alt="Profile Avatar"
                     />
                     {/* <div className="middle has-text-dark">

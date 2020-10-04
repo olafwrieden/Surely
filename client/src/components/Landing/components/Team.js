@@ -1,8 +1,6 @@
 import React from "react";
 
 const Team = () => {
-  const { PUBLIC_URL } = process.env;
-
   return (
     <section className="section">
       <div className="container has-text-centered py-4">
@@ -15,7 +13,7 @@ const Team = () => {
                 <figure className="image is-128x128">
                   <img
                     className="is-rounded"
-                    src={`${PUBLIC_URL}/images/selena-profile.jpeg`}
+                    src="/images/selena-profile.jpeg"
                     alt="Avatar of Selena"
                   />
                 </figure>
@@ -30,7 +28,7 @@ const Team = () => {
                 <figure className="image is-128x128">
                   <img
                     className="is-rounded"
-                    src={`${PUBLIC_URL}/images/olaf-profile.jpeg`}
+                    src="/images/olaf-profile.jpeg"
                     alt="Avatar of Olaf"
                   />
                 </figure>
@@ -45,7 +43,7 @@ const Team = () => {
                 <figure className="image is-128x128">
                   <img
                     className="is-rounded"
-                    src={`${PUBLIC_URL}/images/anna-profile.jpeg`}
+                    src="/images/anna-profile.jpeg"
                     alt="Avatar of Anna"
                   />
                 </figure>
@@ -60,7 +58,7 @@ const Team = () => {
                 <figure className="image is-128x128">
                   <img
                     className="is-rounded"
-                    src={`${PUBLIC_URL}/images/ken-profile.jpeg`}
+                    src="/images/ken-profile.jpeg"
                     alt="Avatar of Ken"
                   />
                 </figure>
@@ -75,7 +73,7 @@ const Team = () => {
                 <figure className="image is-128x128">
                   <img
                     className="is-rounded"
-                    src={`${PUBLIC_URL}/images/ricky-profile.JPG`}
+                    src="/images/ricky-profile.JPG"
                     alt="Avatar of Ricky"
                   />
                 </figure>
@@ -90,7 +88,7 @@ const Team = () => {
                 <figure className="image is-128x128">
                   <img
                     className="is-rounded"
-                    src={`${PUBLIC_URL}/images/rick-profile.jpeg`}
+                    src="/images/rick-profile.jpeg"
                     alt="Avatar of Rick"
                   />
                 </figure>
@@ -105,7 +103,7 @@ const Team = () => {
                 <figure className="image is-128x128">
                   <img
                     className="is-rounded"
-                    src={`${PUBLIC_URL}/images/alex-profile.jpg`}
+                    src="/images/alex-profile.jpg"
                     alt="Avatar of Alex"
                   />
                 </figure>
